@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissor</title>
+</head>
+
+<body>
+
+    <div class="cont">
+        <div class="choices">
+            <div class="choice R"><button onclick="UCR()">ROCK</button></div>
+            <div class="choice P"><button onclick="UCP()">PAPER</button></div>
+            <div class="choice S"><button onclick="UCS()">SCISSOR</button></div>
+        </div>
+
+        <div class="scores">
+            <div class="userScore">User_Score - <div id="US">0</div></div>
+            <div class="compScore">Comp_Score - <div id="CS">0</div></div>
+        </div>
+
+        <div class="result">Let's Play!</div>
+
+        <div class="refresh"><button onclick="refreshFunc()">Reset Game</button></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
