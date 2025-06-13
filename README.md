@@ -1,4 +1,4 @@
-#🪨📄✂️ Rock Paper Scissors Game – JavaScript
+🪨📄✂️ Rock Paper Scissors Game – JavaScript
 
 This project is a simple Rock-Paper-Scissors game built using **HTML**, **CSS**, and **JavaScript**. It allows a user to play against the computer for 10 rounds, keeping track of scores and determining a winner at the end.
 
